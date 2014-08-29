@@ -10,7 +10,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
    ***************************************************************************/
 
 html {
-background-color:#E6F2F4;
+background-color:#95A6A8;
 font-size: 100%; /*IE*/
 }
 
@@ -233,57 +233,13 @@ body {
 .resultado-destaque{
   font-weight: bold;
 }
+
+
 /***************************************************************************
   Footer
    ***************************************************************************/
 
 .footer-bg{
-  height:175px;
+  height:30px;
   background-color:#2C5F66;
-}
-
-.footer-fg{
-  margin:0 auto;
-  width:940px;
-  height:145px;
-  color:#FFF;
-  text-align:left;
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-.footer-titulo{
-    font-weight: bold;
-    font-size:2.2em;
-}
-
-.descricao{
-    float:left;
-    margin-top: 20px;
-    width:470px;
-}
-
-.descricao-texto{
-    margin-top: 15px;
-    text-align: justify;
-    text-indent: 15px;
-    font-size:1.4em;
-}
-
-.desenvolvedor{
-    float:right;
-    margin-top:20px;
-    width:155px;
-}
-
-.nome-desenvolvedor{
-  margin-top: 10px;
-  text-align:right;
-  font-size:1.4em;
-}
-
-.contato-site{
-    display: block;
-    color:#FFF;
-    text-align:right;
-    font-size:1.4em;
 }
