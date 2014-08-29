@@ -1,0 +1,289 @@
+@charset "utf-8";
+
+/***************************************************************************
+  CSS Reset Yahoo
+   ***************************************************************************/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+/***************************************************************************
+ Main Stylesheet
+   ***************************************************************************/
+
+html {
+background-color:#E6F2F4;
+font-size: 100%; /*IE*/
+}
+
+body {
+  height:1%;/*IE*/
+  font:62.5% Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    position:absolute;
+    width:100%;
+    background-color:#FFF;
+    text-align:center; /*IE*/
+}
+
+/***************************************************************************
+  Header
+   ***************************************************************************/
+
+.header-bg{
+  height:108px;
+  background: url("../images/sprite.png") 0 -53px repeat-x transparent;
+}
+
+.header-fg{
+  margin:0 auto;
+  width:940px;
+  text-align:left;
+}
+
+.title{
+    position: relative;
+    float: left;
+    height:80px;
+    color:#2C5F66;
+    font: bold 4.0em Pacifico, Arial, sans-serif;
+}
+
+.subtitle {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    font: normal 0.4em Arial, Helvetica, sans-serif;
+}
+
+/***************************************************************************
+  Content - Propriedades Globais
+   ***************************************************************************/
+
+.content-A{
+    margin:105px auto 0 auto;
+    width:940px;
+    height:300px;
+    text-align:left;
+}
+
+.content-A label,.content-A input,.content-A select{
+  font: 1.6em Verdana, Geneva, sans-serif;
+  cursor:pointer;
+}
+
+.operacao-A-titulo,
+.questoes-A-titulo,
+.criarExercicios-A-titulo {
+  margin-bottom: 40px;
+  text-indent: 11px;
+  height: 33px;
+  background: url("../images/sprite.png") 0 -20px no-repeat transparent;
+  color:#006633;
+  font: bold 1.8em/32px  Arial, Helvetica, sans-serif;
+}
+
+.numero-questoes-A{
+  color: #FFF;
+  margin-right: 20px;
+}
+
+/***************************************************************************
+  1)Escolha da Operação
+   ***************************************************************************/
+.operacao-A {
+    float: left;
+    width: 34%;
+}
+
+.operacao-A > .radios{
+  margin: 5% 20%;
+  width: 130px;
+}
+
+/***************************************************************************
+  2) Escolha do Número de Questões
+   ***************************************************************************/
+
+.questoes-A {
+  float: left;
+  width: 33%;
+}
+
+.num-questoes{
+  margin: 0 40%;
+}
+/***************************************************************************
+  3) Comando para criar o Exercício
+   ***************************************************************************/
+
+.criarExercicios-A {
+  float: right;
+  width: 22%;
+}
+
+.btnExercicios {
+  margin: 0 20%;
+  height: 30px;
+  width: 150px;
+}
+
+/***************************************************************************
+  Divisórias
+   ***************************************************************************/
+
+.divisoria-1{
+    height:30px;
+    background-color:#C7D3D5;
+}
+
+.divisoria-2{
+  margin-top:10px;
+  height:10px;
+  background-color:#2C5F66;
+}
+
+/***************************************************************************
+  Perguntas
+   ***************************************************************************/
+
+.content-B{
+  margin: 10px auto 0;
+  width:940px;
+  text-align:left;
+  overflow: auto;
+}
+
+.content-B label{
+  font:1.4em Verdana, Geneva, sans-serif;
+  margin-left:5px;
+}
+
+.content-B .radios{
+  margin-top:12px;
+  padding:5px 0 5px 20px;
+}
+
+.content-B .perguntas {
+    margin-top: 20px;
+    width: 188px;
+    float: left;
+}
+
+.content-B .perguntas h3 {
+    color: #2C5F66;
+    font-size: 1.8em;
+    font-weight: bold;
+    height: 28px;
+    line-height: 27px;
+    margin-left: 60px;
+}
+
+.alternativas-wrap{
+  margin: 0 25%;
+  width:70px;
+}
+
+.num-pergunta {
+    border: 2px solid #006633;
+    color: #006633;
+    float: left;
+    font-size: 1.9em;
+    padding: 0 3%;
+    margin-left: 20px;
+}
+
+.RC,.RE{
+  width:75px;
+}
+
+.RC{
+  background: url('../images/sprite.png') 0 0 no-repeat transparent;
+}
+
+.RE {
+    background-color: #C7D3D5;
+}
+
+
+.btnRespostas{
+  font: 1.6em Verdana, Geneva, sans-serif;
+  height: 30px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.resultado {
+    margin: 40px auto;
+    display: none;
+    color: #fff;
+}
+
+.resultado-texto{
+    font-size: 1.6em;
+    border: 1px solid black;
+    display: none;
+    background-color: #006633;
+    padding: 10px 0;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.resultado-destaque{
+  font-weight: bold;
+}
+/***************************************************************************
+  Footer
+   ***************************************************************************/
+
+.footer-bg{
+  height:175px;
+  background-color:#2C5F66;
+}
+
+.footer-fg{
+  margin:0 auto;
+  width:940px;
+  height:145px;
+  color:#FFF;
+  text-align:left;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer-titulo{
+    font-weight: bold;
+    font-size:2.2em;
+}
+
+.descricao{
+    float:left;
+    margin-top: 20px;
+    width:470px;
+}
+
+.descricao-texto{
+    margin-top: 15px;
+    text-align: justify;
+    text-indent: 15px;
+    font-size:1.4em;
+}
+
+.desenvolvedor{
+    float:right;
+    margin-top:20px;
+    width:155px;
+}
+
+.nome-desenvolvedor{
+  margin-top: 10px;
+  text-align:right;
+  font-size:1.4em;
+}
+
+.contato-site{
+    display: block;
+    color:#FFF;
+    text-align:right;
+    font-size:1.4em;
+}
