@@ -1,10 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+      <meta charset="UTF-8"/>
       <meta name="description" content="Aplicação construída com Javascript puro, sem uso de framework ou biblioteca."/>
-      <link rel="stylesheet" type="text/css" href="assets/styles/main.css"/>
-      <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Pacifico'/>
+      <link rel="stylesheet" href="assets/styles/main.css"/>
+      <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Pacifico'/>
+      <!--[if lt IE 9]>
+            <script src="assets/browsers/IE/html5shiv.min.js"></script>
+      <![endif]-->
       <title>Math Exercises Builder - Provas de Operação Aritméticas</title>
 </head>
 <body>
@@ -20,13 +23,13 @@
 		<p class="noscript-aviso">O JavaScript tem que ser ativado para que você possa usar o Math Exercise Builder. Porém, aparentemente, o JavaScript está desativado ou é incompatível com o seu navegador. Ative o JavaScript alterando as opções do navegador e <a href="/projetos/math/index.htm">tente novamente</a>.</p>
 	</noscript>
 	<div class="wrapper">
-		<div class="header-bg">
+		<header class="header-bg">
 			<div class="header-fg">
                 <h1 class="title">
                       Math Exercises Builder<span class="subtitle">Exercícios de Operações Aritméticas Simples</span>
                 </h1>
 			</div><!--header-fg-->
-		</div><!--header-bg-->
+		</header><!--header-bg-->
 
 		<div class="content-A">
 			<div class="criarExercicios-A">
@@ -87,7 +90,7 @@
 				<span id="resultado-desempenho"></span>
 			</p>
 		</div><!-- content-B-anexo -->
-		<div class="footer-bg">
+		<footer class="footer-bg">
 			<div class="footer-fg">
 				<div class="desenvolvedor">
 					<h2 class="footer-titulo">
@@ -105,7 +108,7 @@
 					</p>
 				</div><!--descricao-->
 			</div><!--footer-fg-->
-		</div><!--footer-bg-->
+		</footer><!--footer-bg-->
 	</div><!--wrapper-->
 	<script type="text/javascript" src="assets/scripts/main.js"></script>
 </body>
