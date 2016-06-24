@@ -20,6 +20,6 @@ Desenvolvedor
 
 ***Yuri Câmara*** ( [yuricamara.com.br][2] / [@ycamara][3])
 
-  [1]: http://matematica.yuricamara.com.br "Demo da app"
+  [1]: http://yuricamara.com.br/matematica-elementar "Demo da app"
   [2]: http://www.yuricamara.com.br "Site pessoal"
   [3]: https://twitter.com/ycamara "Twitter"
